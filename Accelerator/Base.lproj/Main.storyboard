@@ -95,6 +95,9 @@
                                 <color key="backgroundColor" white="0.85512093320000004" alpha="0.84705882349999995" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <state key="normal" title="戻る"/>
+                                <connections>
+                                    <segue destination="5Ug-fV-7xH" kind="unwind" unwindAction="unwindToViewControllerWithSegue:" id="pnb-Lz-KhA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="傾き" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hqz-7q-UtM">
                                 <rect key="frame" x="120" y="174" width="174" height="112"/>
@@ -120,6 +123,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lkZ-vg-N48" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="5Ug-fV-7xH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1305.7971014492755" y="93.75"/>
         </scene>
